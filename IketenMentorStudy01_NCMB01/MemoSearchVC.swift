@@ -33,6 +33,7 @@ class MemoSearchVC: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
         
         displayTableView.dataSource = self
+        displayTableView.allowsSelection = false
         
         // MARK: 課題③
         /*

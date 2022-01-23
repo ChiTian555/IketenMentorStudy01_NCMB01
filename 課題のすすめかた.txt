@@ -2,7 +2,7 @@
 今回、課題を3つ用意しました！
 
 みんなの回答を独断と偏見で採点します。
-当日は、ランキング（Top3？）を発表します！
+当日は、ランキング（ Top3? ）を発表します！
 
 ぜひ、皆さん、一通り調べて、トライしてください！
 
@@ -19,7 +19,7 @@ SceneDelegate.swiftの36行目！
 ーーーーーーーーーーーーーーーーーーーーーーーーー
 
 課題２
-MemoSearchVC.swiftの57行目~
+MemoSearchVC.swiftの58行目~
 
 1. displayAllUserName　難易度　★★☆☆☆
 2. searchUserByUserNameOrId　難易度　★★★☆☆
@@ -29,7 +29,7 @@ MemoSearchVC.swiftの57行目~
 ーーーーーーーーーーーーーーーーーーーーーーーーー
 
 課題３　難易度　★★☆☆☆
-MemoSearchVC.swiftの37行目~
+MemoSearchVC.swiftの38行目~
 
 みんなも、きっと書いたことあるであろう、
 SignIn画面に戻るためのコード。
