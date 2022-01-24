@@ -1,0 +1,32 @@
+課題２
+MemoSearchVC.swiftの58行目~
+
+1. displayAllUserName　難易度　★★☆☆☆
+
+これも、なんやかんや、難しいかな？
+Queryをいつも通り作っちゃうと、それぞれのクラスから、情報を取っちゃうよね？
+
+ここでは、User情報を取得する、専用のQueryの作り方があるから、
+探してみて〜〜！（サイトを検索してもらっても可！）
+
+2. searchUserByUserNameOrId　難易度　★★★☆☆
+
+例えば、検索欄に　D1HkKGFLLivGhYHC　って入力しても、
+TestManと入力しても、一覧に、TestManが表示されたら成功！
+
+ヒント：searchUserByUserName「Or」Id
+
+3. seachMemoByText　難易度　★★★☆☆
+
+ここは、部分一致ってのが、ポイントだね！
+でも、「部分一致」で検索しても、あまりサイトにヒットしないんだよね。。。
+
+そこで、僕からヒント！「正規表現」をちょっと調べてみてね♪
+
+4. searchMemoByUsersName　難易度　★★★★☆
+
+これは、できたらスッキリ！
+サイトを探すより、予測変換で、（WhereKeyらへんの）いろんな関数を
+説明見ながら、試してみてね！
+
+これも、XCODEを使いこなす上で、必要な力！
