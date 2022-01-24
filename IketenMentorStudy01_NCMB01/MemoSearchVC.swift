@@ -99,6 +99,7 @@ class MemoSearchVC: UIViewController, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!
         cell.textLabel?.text = displayWords[indexPath.row]
+        cell.textLabel?.numberOfLines = 0
         return cell
     }
     
