@@ -16,6 +16,7 @@ class AddMemoVC: UIViewController {
     @IBAction func saveMemo(_ sender: UIButton) {
         let memo = NCMBObject(className: "Memo")
         memo?.setObject(memoTextView.text ?? "", forKey: "text")
+        memo?.setObject(NCMBUser.current(), forKey: "user")
         memo?.saveInBackground {
             if $0 != nil { HUD.flash(.label($0?.localizedDescription), onView: self.view) }
             self.dismiss(animated: true, completion: nil)
