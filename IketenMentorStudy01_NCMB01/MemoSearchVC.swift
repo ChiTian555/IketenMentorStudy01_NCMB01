@@ -102,5 +102,18 @@ class MemoSearchVC: UIViewController, UITableViewDataSource {
         return cell
     }
     
+    /// 下のIDラベルのタップでメニューを表示！
+    @IBAction func idTapped(_ sender: UITapGestureRecognizer) {
+        let alert = UIAlertController(title: "メニュー", message: nil, preferredStyle: .actionSheet)
+        let logout = UIAlertAction(title: "ログアウト", style: .default) { _ in
+            let storyboard = UIStoryboard(name: "SignIn", bundle: Bundle.main)
+            let rootViewController = storyboard.instantiateInitialViewController()
+            UIApplication.shared.keyWindow?.rootViewController = rootViewController
+        }
+        let cancel = UIAlertAction(title: "キャンセル", style: .cancel)
+        alert.addAction(logout)
+        alert.addAction(cancel)
+        present(alert, animated: true, completion: nil)
+    }
 }
 
