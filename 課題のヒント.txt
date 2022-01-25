@@ -11,7 +11,7 @@ Googleアカウント
 ーーーーーーーーーーーーーーーーーーーーーーーーー
 
 課題２
-MemoSearchVC.swiftの58行目~
+MemoSearchVC.swift
 
 1. displayAllUserName　難易度　★★☆☆☆
 

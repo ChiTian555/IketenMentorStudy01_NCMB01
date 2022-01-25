@@ -35,5 +35,4 @@ class AddMemoVC: UIViewController {
     
     @IBAction func back(_ sender: UIButton) { self.dismiss(animated: true, completion: nil) }
     
-    
 }

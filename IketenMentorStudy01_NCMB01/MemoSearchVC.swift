@@ -39,7 +39,7 @@ class MemoSearchVC: UIViewController, UITableViewDataSource {
         /*
          NCMBがログインしてるかしてないかを判断して、ログアウトされてたら、SignIn画面に戻るためのコードです。
          しかし、以下のように書いたら、ちょっと、viewDidLoadが、煩雑になりますね。
-         皆さんで、44~51を、なるべんくシンプルに書き換えてください！
+         皆さんで、45~52を、なるべんくシンプルに書き換えてください！
          ここで、他のviewControllerでも使うことを考慮してくれたら尚よし！
          */
         let current = NCMBUser.current()
