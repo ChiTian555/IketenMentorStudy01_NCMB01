@@ -14,11 +14,20 @@ class AddMemoVC: UIViewController {
     @IBOutlet weak var memoTextView: UITextView!
     
     @IBAction func saveMemo(_ sender: UIButton) {
+        guard let user = NCMBUser.current() else {
+            HUD.flash(.label("ログインされていません。\nサインイン画面に戻ります。"), onView: view, delay: 2) { _ in
+                let storyboard = UIStoryboard(name: "SignIn", bundle: Bundle.main)
+                let rootViewController = storyboard.instantiateInitialViewController()
+                UIApplication.shared.keyWindow?.rootViewController = rootViewController
+            }; return
+        }
         let memo = NCMBObject(className: "Memo")
         memo?.setObject(memoTextView.text ?? "", forKey: "text")
-        memo?.setObject(NCMBUser.current(), forKey: "user")
+        memo?.setObject(user, forKey: "user")
         memo?.saveInBackground {
-            if $0 != nil { HUD.flash(.label($0?.localizedDescription), onView: self.view) }
+            if $0 != nil {
+                HUD.flash(.label($0?.localizedDescription), onView: self.view, delay: 2)
+            }
             self.dismiss(animated: true, completion: nil)
             (self.presentingViewController as! MemoSearchVC).displayAllMemo()
         }
