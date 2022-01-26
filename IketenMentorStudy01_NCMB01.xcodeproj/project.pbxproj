@@ -18,6 +18,9 @@
 		4A596FB0279D4A4A00388B14 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A596FAE279D4A4A00388B14 /* SignUpViewController.swift */; };
 		4A596FB1279D4A4A00388B14 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A596FAF279D4A4A00388B14 /* SignInViewController.swift */; };
 		4A596FB3279D538200388B14 /* AddMemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A596FB2279D538200388B14 /* AddMemoVC.swift */; };
+		4AFB8BA327A0FDE700052941 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4AFB8BA227A0FDE700052941 /* README.md */; };
+		4AFB8BA627A0FDFE00052941 /* 課題のヒント.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AFB8BA427A0FDFD00052941 /* 課題のヒント.txt */; };
+		4AFB8BA727A0FDFE00052941 /* 課題のすすめかた.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AFB8BA527A0FDFE00052941 /* 課題のすすめかた.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		4A596FAE279D4A4A00388B14 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4A596FAF279D4A4A00388B14 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		4A596FB2279D538200388B14 /* AddMemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoVC.swift; sourceTree = "<group>"; };
+		4AFB8BA227A0FDE700052941 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		4AFB8BA427A0FDFD00052941 /* 課題のヒント.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "課題のヒント.txt"; sourceTree = SOURCE_ROOT; };
+		4AFB8BA527A0FDFE00052941 /* 課題のすすめかた.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "課題のすすめかた.txt"; sourceTree = SOURCE_ROOT; };
 		B70B8D145052273AF5E10BA3 /* Pods-IketenMentorStudy01_NCMB01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IketenMentorStudy01_NCMB01.debug.xcconfig"; path = "Target Support Files/Pods-IketenMentorStudy01_NCMB01/Pods-IketenMentorStudy01_NCMB01.debug.xcconfig"; sourceTree = "<group>"; };
 		CB9B16B840876E3D04F32AAB /* Pods-IketenMentorStudy01_NCMB01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IketenMentorStudy01_NCMB01.release.xcconfig"; path = "Target Support Files/Pods-IketenMentorStudy01_NCMB01/Pods-IketenMentorStudy01_NCMB01.release.xcconfig"; sourceTree = "<group>"; };
 		FA0A110CBDA7E8B393722157 /* Pods_IketenMentorStudy01_NCMB01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IketenMentorStudy01_NCMB01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +95,9 @@
 				4A596FA0279D3E5300388B14 /* Assets.xcassets */,
 				4A596FA2279D3E5300388B14 /* LaunchScreen.storyboard */,
 				4A596FA5279D3E5300388B14 /* Info.plist */,
+				4AFB8BA527A0FDFE00052941 /* 課題のすすめかた.txt */,
+				4AFB8BA427A0FDFD00052941 /* 課題のヒント.txt */,
+				4AFB8BA227A0FDE700052941 /* README.md */,
 			);
 			path = IketenMentorStudy01_NCMB01;
 			sourceTree = "<group>";
@@ -172,7 +181,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A596FAC279D48B400388B14 /* SignIn.storyboard in Resources */,
+				4AFB8BA627A0FDFE00052941 /* 課題のヒント.txt in Resources */,
+				4AFB8BA727A0FDFE00052941 /* 課題のすすめかた.txt in Resources */,
 				4A596FA4279D3E5300388B14 /* LaunchScreen.storyboard in Resources */,
+				4AFB8BA327A0FDE700052941 /* README.md in Resources */,
 				4A596FA1279D3E5300388B14 /* Assets.xcassets in Resources */,
 				4A596F9F279D3E5200388B14 /* Main.storyboard in Resources */,
 			);
