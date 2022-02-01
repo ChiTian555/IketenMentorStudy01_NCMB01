@@ -21,10 +21,12 @@ class AddMemoVC: UIViewController {
                 UIApplication.shared.keyWindow?.rootViewController = rootViewController
             }; return
         }
+        HUD.show(.progress, onView: view)
         let memo = NCMBObject(className: "Memo")
         memo?.setObject(memoTextView.text ?? "", forKey: "text")
         memo?.setObject(user, forKey: "user")
         memo?.saveInBackground {
+            HUD.hide(animated: true)
             if $0 != nil {
                 HUD.flash(.label($0?.localizedDescription), onView: self.view, delay: 2)
             }
