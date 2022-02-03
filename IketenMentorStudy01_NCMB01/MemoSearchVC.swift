@@ -63,7 +63,7 @@ class MemoSearchVC: UIViewController, UITableViewDataSource {
      です！
      */
     
-    /// UserNameから、Userを検索し、TableViewに表示！
+    /// UserNameを、TableViewに全表示！
     @IBAction func displayAllUserName(_ sender: UIButton) {
     }
     /// UserNameもしくは、objectIdに一致するUserを、TableViewに表示！
